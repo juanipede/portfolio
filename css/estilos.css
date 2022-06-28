@@ -5,6 +5,7 @@ body{
 #contacto, #inicio{
   background-image:url("../images/fondo-contacto.png") ;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1{
@@ -117,6 +118,7 @@ nav .nav-link {
 #proyectos{
     background-image:url("../images/fondo-proyectos.png") ;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 #proyectos h2 {
@@ -253,7 +255,7 @@ nav .nav-link {
 
 }
 
-.franja-roja {
+#franja-roja {
     
     background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
 }
