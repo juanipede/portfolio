@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#contacto, #inicio{
+  background-image:url("../images/fondo-contacto.png") ;
+  background-size: cover;
+}
+
+h1{
+    color: #E20000;
+    font-size: 36px;
+    font-weight: 500;
+}
+.btn{
+    color: #370a6d;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 23px 5px 23px;
+
+    }
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 15px;
+}
+
+.btn:hover{  /*es para cambiar el aspecto de algo cuando coloco el cursor encima de eso*/
+    color: white;
+    background-color: #370a6d;
+    
+}
+p{
+    color: #6a6a6a;
+}
+.whatsapp{
+    position: fixed;
+    right: 80px;
+    bottom: 0px;
+    background-color: #370a6d;
+    color: white;
+    font-size: 30px;
+    padding: 8px 0 15px 0;
+    width: 60px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.whatsapp a {
+    color: white;
+}
+footer{
+    color: white;
+    font-weight: 100;
+}
+footer a{
+    color: white;
+   
+}
+form textarea{
+    height: 150px;
+}
+
+
+#contacto footer .fa-github, #inicio footer .fa-github{
+    font-size: 30px;
+    color: white;
+}
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+
+}
+nav .active {
+    border: 1px solid red;
+    border-radius: 30px;
+    
+}
+nav .nav-item {
+    padding-top: 8px;
+    
+}
+nav .nav-link {
+    color: #282828;
+    text-decoration: none;
+}
+.btn-rojo {
+    background-color: #E20000;
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 12px ;
+   
+    
+
+}
+.btn-rojo:hover {
+    background-color: #370a6d;
+    color: white;
+
+}
+    
+
+ 
+/*proyectos*/
+ 
+#proyectos{
+    background-image:url("../images/fondo-proyectos.png") ;
+    background-size: cover;
+}
+
+#proyectos h2 {
+    font-size: 16px;
+    color: white;
+}
+.card img {
+    height: 212px;
+ }
+
+ .parrafos {
+    font-size: 14px;
+    min-height: 150px;
+    
+
+ }
+
+ #proyectos p {
+    font-size: 14px;
+
+ }
+
+ .codigo-fuente a {
+    color: #E20000;
+    text-decoration: none; 
+    padding-top: 0px;
+ }
+
+ .codigo-fuente a:hover {
+    color: #E20000;
+ }
+
+ .codigo-fuente {
+    text-align: center;
+    
+    
+    
+
+ }
+
+ .fondo-degradado {
+    max-height: 52px;
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    
+}
+
+#proyectos footer .fa-github {
+    color: #E20000;
+    font-size: 30px;
+    padding-right: 8px;
+
+}
+
+#proyectos footer .fa-linkedin-in {
+    color: white;
+    margin: 0px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #E20000;
+    height: 32px;
+    width: 32px;
+    padding: 8px 0 0 0;
+    
+    
+}
+.col-6 {
+    width: 50%;
+}
+ .color-red {
+    color: #E20000;
+ }
+
+.color-red a {
+    
+    color: #E20000;
+} 
+
+#proyectos footer .fa-github .fa-linkedin-in {
+    color: #E20000;
+}
+
+/* index */
+
+#inicio img {
+    height: 400px;
+}
+
+#inicio img:hover {
+    height: 410px;
+}
+.cohete {
+    height: 410px;
+}
+@media (max-width: 750px) {
+    
+    #inicio p {
+        color: #E20000!important;
+        font-size: 17px;
+        border: 1px #E20000 solid!important;
+        border-radius: 15px;
+         }
+}
+       
+  #inicio p {
+    color: white;
+    font-size: 17px;
+    border: 1px white solid;
+    border-radius: 15px;
+    font-weight: 600;
+    padding-right: 70px!important;
+    padding-left: 70px!important;
+
+  }  
+.btn-blanco {
+    background-color: white;
+    color: #370a6d;
+    border-radius: 15px;
+    padding: 10px;
+    text-decoration: none;
+}
+.btn-blanco:hover {
+    background-color: #370a6d;
+    color: white;
+}
+#inicio footer {
+    padding-top: 250px;
+}
+
+/*sobre mi*/
+
+.foto-perfil {
+    border-radius: 300px;
+    height: 250px;
+
+}
+
+.franja-roja {
+    
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+}
+
+.stack-tecnologico {
+    color: white;
+    font-size: 24px;
+    
+}
+
+section {
+    display: block;
+}
