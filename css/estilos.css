@@ -125,7 +125,7 @@ nav .nav-link {
     font-size: 16px;
     color: white;
 }
-.card img {
+#proyectos .card img {
     height: 212px;
  }
 
@@ -252,6 +252,7 @@ nav .nav-link {
 .foto-perfil {
     border-radius: 300px;
     height: 250px;
+    margin: 16px 0px;
 
 }
 
@@ -263,15 +264,19 @@ nav .nav-link {
 .stack-tecnologico {
     color: white;
     font-size: 24px;
+    margin: 0;
     
 }
 
-section {
-    display: block;
+
+
+.seccion-stack-tecnologico .card {
+    height: 180px;
+    width: 195px;
 }
 
-.card {
-    height: 200px;
-    width: 200px;
+.seccion-stack-tecnologico h3 {
+font-size: 14px;
+font-weight: 300;
 }
 
