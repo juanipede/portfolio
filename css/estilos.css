@@ -280,3 +280,47 @@ font-size: 14px;
 font-weight: 300;
 }
 
+.imagen-depositosintegrales {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.exp-laboral h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #370a6d;
+}
+ .fa-briefcase {
+    padding-right: 5px;
+ }
+
+ #experiencia-laboral h3, #formacion-academica h3, #cursos-desarrollo-profesional h3{
+    font-size: 18px;
+    color: #6a6a6a;
+    font-weight: 600;
+ }
+
+ #experiencia-laboral h4{
+    font-size: 17px;
+    color: #370a6d;
+ }
+
+ #experiencia-laboral h5, #formacion-academica h5, #cursos-desarrollo-profesional h5{
+    font-size: 14px;
+    color: #6a6a6a;
+ }
+
+ .form-academica h2, .cursos-profesional h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #E20000;
+ }
+
+ #formacion-academica h4, #cursos-desarrollo-profesional h4 {
+    font-size: 17px;
+    color: #E20000;
+ }
+
+ 
