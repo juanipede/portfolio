@@ -283,6 +283,7 @@ font-weight: 300;
 .imagen-depositosintegrales {
     margin-top: 10px;
     margin-bottom: 10px;
+    
 }
 
 
@@ -321,6 +322,36 @@ font-weight: 300;
  #formacion-academica h4, #cursos-desarrollo-profesional h4 {
     font-size: 17px;
     color: #E20000;
+ }
+
+ .baw {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+ }
+
+ .baw:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+ }
+
+ #idiomas .card {
+    background-color: #370a6d;
+    height: 182px;
+    padding-top: 40px;
+    border-radius: 14px;
+ }
+
+ #idiomas .fa-solid {
+    font-size: 80px;
+    color: white;
+    
+ }
+ #idiomas {
+    background-color: rgb(230, 234, 235);
+ }
+
+ #idiomas .bg-white{
+    border-radius: 14px;
  }
 
  
