@@ -165,7 +165,7 @@ nav .nav-link {
     
 }
 
-#proyectos footer .fa-github {
+#proyectos footer .fa-github, #sobre-mi footer .fa-github {
     color: #E20000;
     font-size: 30px;
     padding-right: 8px;
@@ -220,6 +220,9 @@ nav .nav-link {
         border: 1px #E20000 solid!important;
         border-radius: 15px;
          }
+         
+            
+         
 }
        
   #inicio p {
