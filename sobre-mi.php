@@ -1,3 +1,5 @@
+<?php $pag = "sobre-mi"; ?>
+
 <!DOCTYPE html>
 <html lang="es" class="h-100">
 
@@ -16,33 +18,7 @@
 
 <body id="sobre-mi" class="d-flex flex-column h-100">
   <header>
-    <nav class="navbar navbar-expand-md mb-4">
-      <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="index.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active px-4 py-1" href="sobre-mi.html">Sobre mi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="proyectos.html">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link px-4 py-1" href="contacto.html">Contacto</a>
-            </li>
-          </ul>
-        </div>
-        <div class="boton-cv">
-          <a href="" class="boton btn-rojo">Descargar mi CV <i class="fas fa-download"></i></a>
-        </div>
-      </div>
-    </nav>
+      <?php include_once("menu.php"); ?>
   </header>
 
   <main>
@@ -53,7 +29,7 @@
           <h1 class=" pb-sm-4">Sobre mí</h1>
 
           <p class="pb-sm-5"> Soy desarrollador Web full stack. Con muchas ganas de vivir de la programación y aprender todos los dias un poco más.</p>
-          <a href="contacto.html" class="btn-rojo">Enviar mensaje</a>
+          <a href="contacto.php" class="btn-rojo">Enviar mensaje</a>
         </div>
         <div class="col-sm-3 col-12 mt-4 offset-sm-2">
           <img src="images/foto-perfil.jpg" alt="juan pedevilla" class="foto-perfil img-fluid">
@@ -218,7 +194,7 @@
               <div class="col-4 text-center card">
                 <i class="fa-solid fa-message"></i>
               </div>
-              <div class="col-8 ">
+              <div class="col-8 my-auto">
                 <h4>IDIOMAS</h4>
                 <p>ESPAÑOL - Nativo</p>
                 <p>INGLES - Básico</p>
@@ -231,7 +207,7 @@
               <div class="col-4 text-center card">
                 <i class="fa-solid fa-star"></i>
               </div>
-              <div class="col-8 ">
+              <div class="col-8 my-auto">
                 <h4>HOBBIES</h4>
                 <p>Fútbol, Simracing, Impresion 3D.</p>
               </div>
