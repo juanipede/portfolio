@@ -1,4 +1,41 @@
-<?php $pag = "contacto"; ?>
+<?php $pag = "contacto"; 
+
+if($_POST){
+  $nombre = $_POST["txtNombre"];
+  $correo = $_POST["txtCorreo"];
+  $telefono = $_POST["txtTelefono"];
+  $mensaje = $_POST["txtMensaje"];
+
+// Destinatarios
+$para  = 'juanipedevilla@gmail.com';
+
+// título
+$título = 'Recibiste un mensaje desde tu web';
+
+// mensaje
+$cuerpo = "
+Nombre: $nombre <br>
+Correo: $correo <br>
+Telefono: $telefono <br>
+Mensaje: $mensaje
+";
+
+// Para enviar un correo HTML, debe establecerse la cabecera Content-type
+$cabeceras  = 'MIME-Version: 1.0' . "\r\n";
+$cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+
+// Cabeceras adicionales
+$cabeceras .= 'To: juanipedevilla@gmail.com' . "\r\n";
+$cabeceras .= 'From: Recordatorio <cumples@example.com>' . "\r\n";
+$cabeceras .= 'Cc: birthdayarchive@example.com' . "\r\n";
+$cabeceras .= 'Bcc: birthdaycheck@example.com' . "\r\n";
+
+// Enviarlo
+// mail($para, $título, $mensaje, $cabeceras);
+header("Location: confirmacion-envio.php");
+
+}
+?>
 
 <!DOCTYPE html>
 <html lang="es" class="h-100">
@@ -55,10 +92,26 @@
     </div>
   </main>
 
-  <footer class="container mt-auto pb-4">
-    
-
-  </footer>
+  <footer class="container mt-sm-auto pt-5 pb-4">
+      <div class="row">
+        <div class="col-3">
+          <a href="https://github.com" target="_blank" title="Github"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/nelson-daniel-tarche/" target="_blank" title="Linkedin"><i
+              class="fab fa-linkedin-in"></i></a>
+        </div>
+        <div class="col-3">
+          Sponsor <a href="https://depcsuite.com/?v=d72a48a8ebd2">DePC Suite</a>
+        </div>
+        <div class="col-3">
+          <a href="mailto:juanipedevilla@gmail.com">juanipedevilla@gmail.com</a>
+        </div>
+        <div class="col-3">
+        </div>
+          <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=541162423341" title="Whatsapp"><i
+                class="fab fa-whatsapp"></i></a>
+          </div>
+    </footer>
 
 </body>
 

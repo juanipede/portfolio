@@ -2,7 +2,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-#contacto, #inicio{
+#contacto, #inicio, #confirmacion-envio {
   background-image:url("../images/fondo-contacto.png") ;
   background-size: cover;
   background-repeat: no-repeat;
@@ -357,4 +357,6 @@ font-weight: 300;
     border-radius: 14px;
  }
 
- 
+ #confirmacion-envio p {
+    color: #6a6a6a;
+ }
