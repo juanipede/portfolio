@@ -14,15 +14,16 @@
   <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
   <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="images/favicon.png">
 </head>
-<body id="confirmacion-envio" class="d-flex flex-column h-100">
+<body id="contacto" class="d-flex flex-column h-100">
     <header>
         <?php include_once("menu.php"); ?>
     </header>
 
     <main class="container">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 py-4">
                 <h1>Gracias por contactarte,</h1>
             </div>
             <div class="col-12">

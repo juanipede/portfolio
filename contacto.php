@@ -6,6 +6,7 @@ if($_POST){
   $telefono = $_POST["txtTelefono"];
   $mensaje = $_POST["txtMensaje"];
 
+  if ($nombre != "" && $correo != "" && $telefono != "" && $mensaje != ""){  // Si $nombre,$correo,$telefono,$mensaje son distintos a Vacio (""), entonces: todo lo de abajo
 // Destinatarios
 $para  = 'juanipedevilla@gmail.com';
 
@@ -27,13 +28,12 @@ $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 // Cabeceras adicionales
 $cabeceras .= 'To: juanipedevilla@gmail.com' . "\r\n";
 $cabeceras .= 'From: Recordatorio <cumples@example.com>' . "\r\n";
-$cabeceras .= 'Cc: birthdayarchive@example.com' . "\r\n";
-$cabeceras .= 'Bcc: birthdaycheck@example.com' . "\r\n";
+
 
 // Enviarlo
-// mail($para, $título, $mensaje, $cabeceras);
+// mail($para, $título, $mensaje, $cabeceras);   (lo comento porque todavia no tenemos servicio de correo)
 header("Location: confirmacion-envio.php");
-
+} 
 }
 ?>
 
